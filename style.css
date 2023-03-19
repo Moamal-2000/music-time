@@ -21,7 +21,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .music-name  {
+  .music-name {
     font-size: 18px;
   }
 }
@@ -62,15 +62,7 @@ body {
   top: -2px;
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  background-image: linear-gradient(60deg,
-      #e50000,
-      #ff8d00,
-      #ffee00,
-      #008121,
-      #004cff,
-      #760188,
-      #e50000,
-      #760188);
+  background-image: linear-gradient(60deg,      #e50000,      #ff8d00,      #ffee00,      #008121,      #004cff,      #760188,      #e50000,      #760188);
   background-size: 120%;
   z-index: -1;
   border-radius: inherit;
@@ -79,6 +71,8 @@ body {
   -ms-border-radius: inherit;
   -o-border-radius: inherit;
   pointer-events: none;
+  animation: color-shadow 8s infinite ease-in-out alternate;
+  -webkit-animation: color-shadow 8s infinite ease-in-out alternate;
 }
 
 @media (max-width: 590px) {
@@ -92,8 +86,6 @@ body {
   -webkit-filter: blur(100px);
   opacity: 0.5;
   z-index: 100;
-  animation: color-shadow 1s infinite ease-in-out;
-  -webkit-animation: color-shadow 3s infinite ease-in-out alternate;
 }
 
 @keyframes color-shadow {
@@ -102,7 +94,7 @@ body {
   }
 
   to {
-    background-size: 280%;
+    background-size: 400%;
   }
 }
 
