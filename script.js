@@ -1,7 +1,7 @@
 'use strict'
 
 const musicFile = new Audio('music.mp3')
-const cd = document.querySelector('.cd')
+const cassette = document.querySelector('.cassette')
 
 
 musicFile.volume = 0.3
@@ -13,8 +13,8 @@ function clickEffect(ele) {
 }
 
 
-cd.onclick = () => {
+cassette.onclick = () => {
   musicFile.paused ? musicFile.play() : musicFile.pause()
-  clickEffect(cd)
+  clickEffect(cassette)
 }
 
