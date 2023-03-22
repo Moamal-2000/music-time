@@ -18,18 +18,3 @@ cassette.onclick = () => {
   clickEffect(cassette)
 }
 
-
-
-
-
-const button = document.querySelector("button");
-
-button.onclick = () => {
-  if ("vibrate" in navigator) {
-    navigator.vibrate(1000);
-    button.style.backgroundColor = '#0fda0f'
-  } else {
-    button.style.backgroundColor = '#ff2b2b'
-  }
-};
-
