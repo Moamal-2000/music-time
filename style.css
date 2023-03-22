@@ -326,8 +326,6 @@ body {
   -o-transform: rotate(62deg);
 }
 
-.inner-cassette .content-cassette .center .circle-shadow {}
-
 .inner-cassette .colored-label {
   width: 100%;
   height: 86px;
@@ -345,4 +343,4 @@ body {
   position: absolute;
   left: 0;
   top: 90px;
-}ئ
+}
