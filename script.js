@@ -18,3 +18,20 @@ cassette.onclick = () => {
   clickEffect(cassette)
 }
 
+
+
+
+
+const button = document.querySelector("button");
+
+button.onclick = () => {
+  // Check if the Vibration API is supported
+  if ("vibrate" in navigator) {
+    // Vibrate for 100 milliseconds
+    navigator.vibrate(200);
+  } else {
+    // Vibration API not supported
+    console.log("Vibration not supported");
+  }
+};
+
