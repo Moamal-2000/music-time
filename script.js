@@ -25,13 +25,11 @@ cassette.onclick = () => {
 const button = document.querySelector("button");
 
 button.onclick = () => {
-  // Check if the Vibration API is supported
   if ("vibrate" in navigator) {
-    // Vibrate for 100 milliseconds
-    navigator.vibrate(200);
+    navigator.vibrate(1000);
+    button.style.backgroundColor = '#0fda0f'
   } else {
-    // Vibration API not supported
-    console.log("Vibration not supported");
+    button.style.backgroundColor = '#ff2b2b'
   }
 };
 
