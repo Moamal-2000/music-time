@@ -10,9 +10,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0e0e0e;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.music-name {
+/* .music-name {
   color: #fff;
   font-size: 24px;
   width: fit-content;
@@ -24,7 +29,7 @@ body {
   .music-name {
     font-size: 18px;
   }
-}
+} */
 
 .colored-cassette-container {
   position: relative;
@@ -62,7 +67,7 @@ body {
   top: -2px;
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  background-image: linear-gradient(60deg,      #e50000,      #ff8d00,      #ffee00,      #008121,      #004cff,      #760188,      #e50000,      #760188);
+  background-image: linear-gradient(60deg, #e50000, #ff8d00, #ffee00, #008121, #004cff, #760188, #e50000, #760188);
   background-size: 120%;
   z-index: -1;
   border-radius: inherit;
