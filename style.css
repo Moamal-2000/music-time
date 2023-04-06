@@ -312,7 +312,19 @@ body {
 
 @media (max-width: 590px) {
   .inner-cassette .content-cassette .center .glass {
-    width: 80%;
+    width: 174%;
+  }
+}
+
+@media (max-width: 500px) {
+  .inner-cassette .content-cassette .center .glass {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .inner-cassette .content-cassette .center .glass {
+    width: 90%;
   }
 }
 
